@@ -7,4 +7,5 @@ This is a simple script that concats attribute classname to the attribute name o
 * * Example: `python xuproc.py file.xml`
 ### Project also contains small amount of tests
 *  This can be runned with command: 
-* * `python -m unittest discover -s tests`  
+* * `python -m unittest discover -s tests`
+### CI testing is done with github actions
