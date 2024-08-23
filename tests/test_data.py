@@ -1,4 +1,7 @@
-XML_VALID= '''<testsuites name="Test run" tests="8" failures="1" errors="1" skipped="1" 
+"""
+This module contains test data for the unit tests.
+"""
+XML_VALID = '''<testsuites name="Test run" tests="8" failures="1" errors="1" skipped="1"
     assertions="20" time="16.082687" timestamp="2021-04-02T15:48:23">
     <testsuite name="Tests.Registration" tests="8" failures="1" errors="1" skipped="1" 
         assertions="20" time="16.082687" timestamp="2021-04-02T15:48:23" 
@@ -85,7 +88,7 @@ XML_VALID= '''<testsuites name="Test run" tests="8" failures="1" errors="1" skip
         </testsuite>
     </testsuites>
 '''
-XML_ERORS='''
+XML_ERORS = '''
 <testsuites time="15.682687">
     <testsuite name="Tests.Registration" time="6.605871">
         <testcase name="testCase1" classname="Tests.Registration" time="2.113871" />
