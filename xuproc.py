@@ -107,7 +107,7 @@ class XUProc:
             classname = testcase.get('classname')
             name = testcase.get('name')
             if classname and name:  # if both classname and name exist
-                testcase.set('name', f"{name}.{classname}")  # concat them
+                testcase.set('name', f"{classname}.{name}")  # concat them
         return ET.tostring(self.root, encoding='unicode')
 
     def get_test_statistics(self):
